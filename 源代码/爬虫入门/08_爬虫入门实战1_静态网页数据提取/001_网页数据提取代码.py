@@ -6,7 +6,8 @@
 from bs4 import BeautifulSoup
 from common import NoteContent
 from parsel import Selector
-
+# 新的代码
+print("Welcome to the world of GitHub!")
 
 def parse_html_use_bs(html_content: str):
     """
